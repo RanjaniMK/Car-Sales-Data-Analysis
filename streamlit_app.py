@@ -3,9 +3,36 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.title(" CAR SALES DATA ANALYSIS")
+st.title(" :green[CAR SALES DATA ANALYSIS]")
 
-st.subheader("CSV FILE VIEWER")
+
+
+st.subheader("Project Scope")
+
+
+
+
+
+st.subheader(":blue[ _Data_  _Preparation_ _and_ _Exploratory_ _Data_ _Analysis_ _with_ _Python_]")
+st.write("Data Preparation and Exploratory Data Analysis is a critical part of this project and it comes first. The following three steps comprise of the Data Preparation and Exploratory Data Analysis phase.")
+
+
+
+
+st.subheader("1. :blue[_Gathering_ _Data_]")
+
+
+
+
+st.subheader("2. :blue[_Cleaning_ _Data_]")
+
+
+
+
+
+st.subheader("3. :blue[_Exploring_ _Data_]")
+
+st.write("_CSV_ _FILE_ _VIEWER_")
 st.write("Upload a file and view it's  contents")
 
 #Upload a CSV file
@@ -52,4 +79,19 @@ if uploaded_file is not None:
     st.write(f"The dataset has {data.shape[0]} rows and {data.shape[1]} columns.")
 
    
+
+
+
+
+
+
+st.subheader(":blue[_Modeling_ _Data_]")
+
+
+
+
+
+st.subheader(":blue[_Sharing_ _Insights_]")
+
+
 
